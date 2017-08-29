@@ -1,0 +1,130 @@
+@mixin card() {
+
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+    vertical-align: top;
+    cursor: pointer;
+
+    & > a {
+        margin-left: 4%;
+        margin-right: 4%;
+        width: 92%;
+        display: block;
+        padding-bottom: 20px;
+        background-color: darken($gray_light, 0.9);
+        overflow: hidden;
+        @include border-radius(4px);
+        height: 280px;
+        transition: all 300ms ease;
+
+        &:hover {
+            color: $gray;
+            text-decoration: none;
+            box-shadow: 0px 2px 4px 0px $gray;
+
+            div.image {
+                box-shadow: 0px -4px 4px 2px $gray;
+            }
+
+        }
+    }
+
+    &:nth-of-type(3n+1) a {
+        margin-left: 0;
+        margin-right: 8%;
+    }
+
+    &:nth-of-type(3n+3) a {
+        margin-left: 8%;
+        margin-right: 0;
+    }
+
+    div.image {
+        display: block;
+        width: 100%;
+        padding-bottom: 56.2%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        color: $black;
+        margin: 25px 15px 0;
+    }
+
+    h3 {
+        font-family: $akrobat;
+        font-size: 0.9em;
+        color: $gray;
+        margin: 20px 15px 15px;
+    }
+
+    @media only screen and (max-width: 680px) {
+        width: 50%;
+
+        & > a {
+            width: 94%;
+        }
+
+        &:nth-of-type(3n+1) a {
+            margin-left: inherit;
+            margin-right: inherit;
+        }
+
+        &:nth-of-type(3n+3) a {
+            margin-left: inherit;
+            margin-right: inherit;
+        }
+
+        &:nth-of-type(2n+1) a {
+            margin-left: 0;
+            margin-right: 6%;
+        }
+
+        &:nth-of-type(2n+2) a {
+            margin-left: 6%;
+            margin-right: 0;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        display: block;
+        float: inherit;
+        width: 100%;
+        margin-bottom: 30px;
+
+        & > a {
+            margin-left: 4%;
+            margin-right: 4%;
+            width: 100%;
+            height: inherit;
+        }
+
+        &:nth-of-type(3n+1) a {
+            margin-left: inherit;
+            margin-right: inherit;
+        }
+
+        &:nth-of-type(3n+3) a {
+            margin-left: inherit;
+            margin-right: inherit;
+        }
+
+        &:nth-of-type(2n+1) a {
+            margin-left: inherit;
+            margin-right: inherit;
+        }
+
+        &:nth-of-type(2n+2) a {
+            margin-left: inherit;
+            margin-right: inherit;
+        }
+    }
+
+
+}

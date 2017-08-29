@@ -1,0 +1,21 @@
+@import 'base/intro';
+@import "base/reset";
+@import "base/font";
+@import "base/color";
+@import "base/functions";
+@import "base/tools";
+@import "advanced/header";
+@import "advanced/footer";
+@import "advanced/content";
+@import "advanced/elementor";
+
+body {
+    font-family: $din;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+
+}

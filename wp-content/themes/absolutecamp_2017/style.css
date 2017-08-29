@@ -1,0 +1,111 @@
+/*
+Theme Name: Absolute camp 2017
+Theme URI: http://absolutecamp.org
+Author: Yoann Gern
+Author URI: http://yoanngern.ch
+Description: Template for Absolute camp 2017
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: absolutecamp_2017
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* RESET */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  letter-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption {
+  font-weight: normal;
+  font-style: normal; }
+
+fieldset, iframe {
+  border: none; }
+
+caption, th {
+  text-align: left; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption {
+  display: block; }
+
+@font-face {
+  font-family: 'DINCondensed-Regular';
+  src: url("fonts/348AE4_0_0.eot");
+  src: url("fonts/348AE4_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/348AE4_0_0.woff2") format("woff2"), url("fonts/348AE4_0_0.woff") format("woff"), url("fonts/348AE4_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DINCondensed-Light';
+  src: url("fonts/348AE4_1_0.eot");
+  src: url("fonts/348AE4_1_0.eot?#iefix") format("embedded-opentype"), url("fonts/348AE4_1_0.woff2") format("woff2"), url("fonts/348AE4_1_0.woff") format("woff"), url("fonts/348AE4_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-Bk';
+  src: url("fonts/32AA10_0_0.eot");
+  src: url("fonts/32AA10_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_0_0.woff2") format("woff2"), url("fonts/32AA10_0_0.woff") format("woff"), url("fonts/32AA10_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-BkIta';
+  src: url("fonts/32AA10_1_0.eot");
+  src: url("fonts/32AA10_1_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_1_0.woff2") format("woff2"), url("fonts/32AA10_1_0.woff") format("woff"), url("fonts/32AA10_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-LtIta';
+  src: url("fonts/32AA10_2_0.eot");
+  src: url("fonts/32AA10_2_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_2_0.woff2") format("woff2"), url("fonts/32AA10_2_0.woff") format("woff"), url("fonts/32AA10_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-Bd';
+  src: url("fonts/32AA10_3_0.eot");
+  src: url("fonts/32AA10_3_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_3_0.woff2") format("woff2"), url("fonts/32AA10_3_0.woff") format("woff"), url("fonts/32AA10_3_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-Lt';
+  src: url("fonts/32AA10_4_0.eot");
+  src: url("fonts/32AA10_4_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_4_0.woff2") format("woff2"), url("fonts/32AA10_4_0.woff") format("woff"), url("fonts/32AA10_4_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-BdIta';
+  src: url("fonts/32AA10_5_0.eot");
+  src: url("fonts/32AA10_5_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_5_0.woff2") format("woff2"), url("fonts/32AA10_5_0.woff") format("woff"), url("fonts/32AA10_5_0.ttf") format("truetype"); }
+
+.elementor-column-gap-default > .elementor-row > .elementor-column.full_width div {
+  padding: 0; }
+
+.din h1, .din h2, .din h3, .din h4, .din h5, .din h6, .din p, .din a {
+  font-family: "DINCondensed-Regular", Arial, Helvetica, Verdana sans-serif !important; }
+
+.din-light h1, .din-light h2, .din-light h3, .din-light h4, .din-light h5, .din-light h6, .din-light p, .din-light a {
+  font-family: "DINCondensed-Light", "DINCondensed-Regular", Arial, Helvetica, Verdana sans-serif !important; }
+
+.garamond h1, .garamond h2, .garamond h3, .garamond h4, .garamond h5, .garamond h6, .garamond p, .garamond a {
+  font-family: "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-i h1, .garamond-i h2, .garamond-i h3, .garamond-i h4, .garamond-i h5, .garamond-i h6, .garamond-i p, .garamond-i a {
+  font-family: "ITCGaramondStd-BkIta", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-ligth h1, .garamond-ligth h2, .garamond-ligth h3, .garamond-ligth h4, .garamond-ligth h5, .garamond-ligth h6, .garamond-ligth p, .garamond-ligth a {
+  font-family: "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-ligth-i h1, .garamond-ligth-i h2, .garamond-ligth-i h3, .garamond-ligth-i h4, .garamond-ligth-i h5, .garamond-ligth-i h6, .garamond-ligth-i p, .garamond-ligth-i a {
+  font-family: "ITCGaramondStd-LtIta", "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-bold h1, .garamond-bold h2, .garamond-bold h3, .garamond-bold h4, .garamond-bold h5, .garamond-bold h6, .garamond-bold p, .garamond-bold a {
+  font-family: "ITCGaramondStd-Bd", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-bold-i h1, .garamond-bold-i h2, .garamond-bold-i h3, .garamond-bold-i h4, .garamond-bold-i h5, .garamond-bold-i h6, .garamond-bold-i p, .garamond-bold-i a {
+  font-family: "ITCGaramondStd-BdIta", "ITCGaramondStd-Bd", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+body {
+  font-family: "DINCondensed-Regular", Arial, Helvetica, Verdana sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased; }

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'DINCondensed-Regular';
+    src: url('fonts/348AE4_0_0.eot');
+    src: url('fonts/348AE4_0_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/348AE4_0_0.woff2') format('woff2'),
+    url('fonts/348AE4_0_0.woff') format('woff'),
+    url('fonts/348AE4_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DINCondensed-Light';
+    src: url('fonts/348AE4_1_0.eot');
+    src: url('fonts/348AE4_1_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/348AE4_1_0.woff2') format('woff2'),
+    url('fonts/348AE4_1_0.woff') format('woff'),
+    url('fonts/348AE4_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCGaramondStd-Bk';
+    src: url('fonts/32AA10_0_0.eot');
+    src: url('fonts/32AA10_0_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/32AA10_0_0.woff2') format('woff2'),
+    url('fonts/32AA10_0_0.woff') format('woff'),
+    url('fonts/32AA10_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCGaramondStd-BkIta';
+    src: url('fonts/32AA10_1_0.eot');
+    src: url('fonts/32AA10_1_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/32AA10_1_0.woff2') format('woff2'),
+    url('fonts/32AA10_1_0.woff') format('woff'),
+    url('fonts/32AA10_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCGaramondStd-LtIta';
+    src: url('fonts/32AA10_2_0.eot');
+    src: url('fonts/32AA10_2_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/32AA10_2_0.woff2') format('woff2'),
+    url('fonts/32AA10_2_0.woff') format('woff'),
+    url('fonts/32AA10_2_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCGaramondStd-Bd';
+    src: url('fonts/32AA10_3_0.eot');
+    src: url('fonts/32AA10_3_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/32AA10_3_0.woff2') format('woff2'),
+    url('fonts/32AA10_3_0.woff') format('woff'),
+    url('fonts/32AA10_3_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCGaramondStd-Lt';
+    src: url('fonts/32AA10_4_0.eot');
+    src: url('fonts/32AA10_4_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/32AA10_4_0.woff2') format('woff2'),
+    url('fonts/32AA10_4_0.woff') format('woff'),
+    url('fonts/32AA10_4_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCGaramondStd-BdIta';
+    src: url('fonts/32AA10_5_0.eot');
+    src: url('fonts/32AA10_5_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/32AA10_5_0.woff2') format('woff2'),
+    url('fonts/32AA10_5_0.woff') format('woff'),
+    url('fonts/32AA10_5_0.ttf') format('truetype');
+}
+
+$din: "DINCondensed-Regular", Arial, Helvetica, Verdana sans-serif;
+$din-light: "DINCondensed-Light", $din;
+
+$garamond: "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif;
+$garamond-i: "ITCGaramondStd-BkIta", $garamond;
+$garamond-ligth: "ITCGaramondStd-Lt", $garamond;
+$garamond-ligth-i: "ITCGaramondStd-LtIta", $garamond-ligth;
+$garamond-bold: "ITCGaramondStd-Bd", $garamond;
+$garamond-bold-i: "ITCGaramondStd-BdIta", $garamond-bold;
