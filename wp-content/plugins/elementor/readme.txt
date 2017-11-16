@@ -3,7 +3,7 @@ Contributors: pojo.me, KingYes, ariel.k, jzaltzberg, mati1000, pojosh, yehudah
 Tags: page builder, editor, landing page, drag-and-drop, elementor, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
 Requires at least: 4.5
 Tested up to: 4.8
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -182,6 +182,12 @@ No. Elementor supports WordPress 4.5 or greater, and is compatible with PHP 5.4 
 7. **Shape Divider.** Choose from a wide array of shape dividers and separate your sections in endless ways, that until now were simply not possible.
 
 == Changelog ==
+
+= 1.7.1 - 29.08.2017 =
+* Tweak! - Removed some filters for better performance
+* Fix! - Allow import `.zip` mime type to the library for some browsers / servers
+* Fix! - Save checking for the history log
+* Fix! - Change default template in page settings
 
 = 1.7.0 - 28.08.2017 =
 * New! - History actions in the editor ([#266](https://github.com/pojome/elementor/issues/266))
